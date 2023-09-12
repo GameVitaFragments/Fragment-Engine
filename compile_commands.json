@@ -1,0 +1,26 @@
+[
+  {
+    "directory": "/home/grx/Projects/Fragment-Engine/build",
+    "command": "ccache c++ -Isubprojects/ECS/main.p -Isubprojects/ECS -I../subprojects/ECS -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -O0 -g -MD -MQ subprojects/ECS/main.p/main.cpp.o -MF subprojects/ECS/main.p/main.cpp.o.d -o subprojects/ECS/main.p/main.cpp.o -c ../subprojects/ECS/main.cpp",
+    "file": "../subprojects/ECS/main.cpp",
+    "output": "subprojects/ECS/main.p/main.cpp.o"
+  },
+  {
+    "directory": "/home/grx/Projects/Fragment-Engine/build",
+    "command": "ccache c++ -Isubprojects/FragLogger/libFraglog.so.p -Isubprojects/FragLogger -I../subprojects/FragLogger -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -O0 -g -fPIC -MD -MQ subprojects/FragLogger/libFraglog.so.p/Fraglog.cpp.o -MF subprojects/FragLogger/libFraglog.so.p/Fraglog.cpp.o.d -o subprojects/FragLogger/libFraglog.so.p/Fraglog.cpp.o -c ../subprojects/FragLogger/Fraglog.cpp",
+    "file": "../subprojects/FragLogger/Fraglog.cpp",
+    "output": "subprojects/FragLogger/libFraglog.so.p/Fraglog.cpp.o"
+  },
+  {
+    "directory": "/home/grx/Projects/Fragment-Engine/build",
+    "command": "ccache c++ -Imain.p -I. -I.. -IEngine/Core/Utility/Defines -I../Engine/Core/Utility/Defines -Isubprojects/ECS -I../subprojects/ECS -Isubprojects/FragLogger -I../subprojects/FragLogger -I/usr/include/SDL2 -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -O0 -g -D_REENTRANT -MD -MQ main.p/main.cpp.o -MF main.p/main.cpp.o.d -o main.p/main.cpp.o -c ../main.cpp",
+    "file": "../main.cpp",
+    "output": "main.p/main.cpp.o"
+  },
+  {
+    "directory": "/home/grx/Projects/Fragment-Engine/build",
+    "command": "ccache c++ -Imain.p -I. -I.. -IEngine/Core/Utility/Defines -I../Engine/Core/Utility/Defines -Isubprojects/ECS -I../subprojects/ECS -Isubprojects/FragLogger -I../subprojects/FragLogger -I/usr/include/SDL2 -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -O0 -g -D_REENTRANT -MD -MQ main.p/Engine_Core_Window_Window.cpp.o -MF main.p/Engine_Core_Window_Window.cpp.o.d -o main.p/Engine_Core_Window_Window.cpp.o -c ../Engine/Core/Window/Window.cpp",
+    "file": "../Engine/Core/Window/Window.cpp",
+    "output": "main.p/Engine_Core_Window_Window.cpp.o"
+  }
+]
