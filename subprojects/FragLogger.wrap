@@ -1,0 +1,7 @@
+[wrap-git]
+url = https://github.com/Bharath33-Krishnan/FragLogger.git
+revision = head
+depth = 1
+
+[provide]
+FragLogger = lib_log_dep
