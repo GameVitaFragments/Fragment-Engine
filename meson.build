@@ -5,8 +5,12 @@ inc_dir = []
 
 subproject('ECS')
 
+subdir('Engine/Systems/Update')
 subdir('Engine/Core/Utility/Defines')
 subdir('Engine/Core/Window')
+subdir('Engine/Components')
+subdir('Engine/Core/Entity')
+subdir('Engine/Systems/Renderer')
 
 ecs_dep = dependency('ECS')
 fragLogger_dep = dependency('FragLogger')
@@ -16,9 +20,10 @@ executable(
   'main',
   sources,
   dependencies : [
-    ecs_dep, 
-    fragLogger_dep,
-    sdl_dep
+    dependency('ECS'),
+    dependency('FragLogger'),
+    dependency('sdl2'),
+    dependency('glm'),
     ],
   include_directories : inc_dir,
   )

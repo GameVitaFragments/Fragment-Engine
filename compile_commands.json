@@ -13,14 +13,26 @@
   },
   {
     "directory": "/home/grx/Projects/Fragment-Engine/build",
-    "command": "ccache c++ -Imain.p -I. -I.. -IEngine/Core/Utility/Defines -I../Engine/Core/Utility/Defines -Isubprojects/ECS -I../subprojects/ECS -Isubprojects/FragLogger -I../subprojects/FragLogger -I/usr/include/SDL2 -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -O0 -g -D_REENTRANT -MD -MQ main.p/main.cpp.o -MF main.p/main.cpp.o.d -o main.p/main.cpp.o -c ../main.cpp",
+    "command": "ccache c++ -Imain.p -I. -I.. -IEngine/Core/Utility/Defines -I../Engine/Core/Utility/Defines -IEngine/Components -I../Engine/Components -IEngine/Core/Entity -I../Engine/Core/Entity -Isubprojects/ECS -I../subprojects/ECS -Isubprojects/FragLogger -I../subprojects/FragLogger -Isubprojects/glm-0.9.9.8 -I../subprojects/glm-0.9.9.8 -I/usr/include/SDL2 -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -O0 -g -D_REENTRANT -MD -MQ main.p/main.cpp.o -MF main.p/main.cpp.o.d -o main.p/main.cpp.o -c ../main.cpp",
     "file": "../main.cpp",
     "output": "main.p/main.cpp.o"
   },
   {
     "directory": "/home/grx/Projects/Fragment-Engine/build",
-    "command": "ccache c++ -Imain.p -I. -I.. -IEngine/Core/Utility/Defines -I../Engine/Core/Utility/Defines -Isubprojects/ECS -I../subprojects/ECS -Isubprojects/FragLogger -I../subprojects/FragLogger -I/usr/include/SDL2 -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -O0 -g -D_REENTRANT -MD -MQ main.p/Engine_Core_Window_Window.cpp.o -MF main.p/Engine_Core_Window_Window.cpp.o.d -o main.p/Engine_Core_Window_Window.cpp.o -c ../Engine/Core/Window/Window.cpp",
+    "command": "ccache c++ -Imain.p -I. -I.. -IEngine/Core/Utility/Defines -I../Engine/Core/Utility/Defines -IEngine/Components -I../Engine/Components -IEngine/Core/Entity -I../Engine/Core/Entity -Isubprojects/ECS -I../subprojects/ECS -Isubprojects/FragLogger -I../subprojects/FragLogger -Isubprojects/glm-0.9.9.8 -I../subprojects/glm-0.9.9.8 -I/usr/include/SDL2 -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -O0 -g -D_REENTRANT -MD -MQ main.p/Engine_Systems_Update_Update.cpp.o -MF main.p/Engine_Systems_Update_Update.cpp.o.d -o main.p/Engine_Systems_Update_Update.cpp.o -c ../Engine/Systems/Update/Update.cpp",
+    "file": "../Engine/Systems/Update/Update.cpp",
+    "output": "main.p/Engine_Systems_Update_Update.cpp.o"
+  },
+  {
+    "directory": "/home/grx/Projects/Fragment-Engine/build",
+    "command": "ccache c++ -Imain.p -I. -I.. -IEngine/Core/Utility/Defines -I../Engine/Core/Utility/Defines -IEngine/Components -I../Engine/Components -IEngine/Core/Entity -I../Engine/Core/Entity -Isubprojects/ECS -I../subprojects/ECS -Isubprojects/FragLogger -I../subprojects/FragLogger -Isubprojects/glm-0.9.9.8 -I../subprojects/glm-0.9.9.8 -I/usr/include/SDL2 -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -O0 -g -D_REENTRANT -MD -MQ main.p/Engine_Core_Window_Window.cpp.o -MF main.p/Engine_Core_Window_Window.cpp.o.d -o main.p/Engine_Core_Window_Window.cpp.o -c ../Engine/Core/Window/Window.cpp",
     "file": "../Engine/Core/Window/Window.cpp",
     "output": "main.p/Engine_Core_Window_Window.cpp.o"
+  },
+  {
+    "directory": "/home/grx/Projects/Fragment-Engine/build",
+    "command": "ccache c++ -Imain.p -I. -I.. -IEngine/Core/Utility/Defines -I../Engine/Core/Utility/Defines -IEngine/Components -I../Engine/Components -IEngine/Core/Entity -I../Engine/Core/Entity -Isubprojects/ECS -I../subprojects/ECS -Isubprojects/FragLogger -I../subprojects/FragLogger -Isubprojects/glm-0.9.9.8 -I../subprojects/glm-0.9.9.8 -I/usr/include/SDL2 -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -O0 -g -D_REENTRANT -MD -MQ main.p/Engine_Systems_Renderer_Renderer.cpp.o -MF main.p/Engine_Systems_Renderer_Renderer.cpp.o.d -o main.p/Engine_Systems_Renderer_Renderer.cpp.o -c ../Engine/Systems/Renderer/Renderer.cpp",
+    "file": "../Engine/Systems/Renderer/Renderer.cpp",
+    "output": "main.p/Engine_Systems_Renderer_Renderer.cpp.o"
   }
 ]
