@@ -1,2 +1,5 @@
 .cache/
 Error.log
+build/
+subprojects/
+logs/
