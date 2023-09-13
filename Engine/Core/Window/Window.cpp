@@ -21,10 +21,10 @@ Frag::Window::Window(u32 w, u32 h, const char* t) : m_width(w), m_height(h), m_t
         SDL_WINDOW_RESIZABLE
     );
 
-    // if (!this->m_window) {
-    //     std::cout << SDL_GetError() << std::endl;
-    //     SDL_Quit();
-    // }
+    if (!this->m_window) {
+        std::cout << SDL_GetError() << std::endl;
+        SDL_Quit();
+    }
 
     ECS::System::initAllSystems();
 }
@@ -41,9 +41,9 @@ void Frag::Window::PollEvents() {
 }
 
 void Frag::Window::Run() {
-    //ECS::System::updateAllSystems(0);
     while (!this->m_isClosed) {
         this->PollEvents();
+        ECS::System::updateAllSystems(0);
     }
 }
 

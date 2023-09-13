@@ -26,8 +26,7 @@ int main() {
     Bird flappy;
 
     Frag::Window win(WIDTH, HEIGHT, "Fragment Engine");
-    // Frag::Renderer rend(win);
+    Frag::Renderer rend(win);
 
     win.Run();
-    //log.write("Hello World Logging Exists");
 }

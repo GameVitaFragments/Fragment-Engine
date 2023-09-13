@@ -4,7 +4,7 @@
 #include "transform.hpp"
 #include <vector>
 
-Frag::Renderer::Renderer(Frag::Window win) {
+Frag::Renderer::Renderer(Frag::Window& win) {
     this->m_renderer = SDL_CreateRenderer(
         win.GetWindow(), 
         -1, 
@@ -34,7 +34,6 @@ void Frag::Renderer::updateSystem(float dt) {
         auto t = transforms->getItem(i);
         SDL_RenderDrawPoint(this->m_renderer, t->position.x, t->position.y);
     }
-
     SDL_RenderPresent(this->m_renderer);
 }
 
