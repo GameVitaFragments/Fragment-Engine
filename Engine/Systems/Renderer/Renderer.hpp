@@ -5,11 +5,11 @@
 
 namespace Frag {
 
-class Renderer {
+class Renderer : public ECS::System {
 private:
     SDL_Renderer* m_renderer;
 public:
-    Renderer(Frag::Window win);
+    Renderer(Frag::Window& win);
     void initSystem() ;
     void updateSystem(float dt) ;
     ~Renderer();
