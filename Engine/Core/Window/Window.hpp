@@ -15,13 +15,8 @@ private:
 
 public:
     Window(u32 w, u32 h, const char* t);
-
-    inline u32 GetWidth() { return m_width; }
-    inline u32 GetHeight() { return m_height; }
-    inline SDL_Window* GetWindow() { return m_window; }
-
     void PollEvents();
-    void Run();
+    void run();
     ~Window();
 };
 
